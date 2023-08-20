@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/* First div container styling start here */
+.my-profile{
+    display: flex;
+}
+.nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 630px;
+}
+
+.grey-div{
+    background-color:#607d8b!important;
+    width:100%;
+    height: 630px;
+}
+.logo{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: Arial;
+}
+.logo-item{
+    text-align: center;
+    margin-top: 120px;
+}
+.logo-item div a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo-item div{
+    padding: 20px;
+    font-size: 17px;
+}
+.about-me{
+ text-align: center;
+ margin-top: 80px;
+ color: white;
+ font-family: Arial;
+ font-size: 25px;
+}
+.profile-image{
+    text-align: center;
+}
+.profile-image img{
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 100px;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.text2{
+    margin-top: 35px;
+}
+/* Hover effect styling start here */
+
+.logo-item .home:hover{
+background-color: #607d8b!important;
+margin-left: 15px;
+margin-right: 15px;
+}
+.logo-item .project:hover{
+    background-color:  #009688!important;
+margin-left: 25px;
+margin-right: 25px;
+}
+.logo-item .resume:hover{
+    background-color:  #616161!important;
+margin-left: 25px;
+margin-right: 25px;
+}
+.logo-item .contact-form:hover{
+    background-color: #7c4700;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*  Hover styling ends here*/
+
+
+/* First div container styling ends here */
+
+/* Second div container styling start */
+.second-container{
+    display: flex;
+}
+.experience{
+    width: 50%;
+    height: 640px;
+}
+.text3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.text4{
+    font-size: 22px;
+    text-align: center;
+}
+.coffe{
+    height: 200px;
+}
+.workbench{
+    width: 100%;
+}
+.project-images{
+    display: flex;
+}
+.text4 {
+    padding-top: 30px;
+}
+.w3-images{
+    margin-top: 50px;
+}
+.awesome-text{
+    text-align: center;
+    margin-top: 60px;
+}
+/* resume container styling start here */
+
+.w3-resume{
+    background-color: blue;
+    /* width: 596px; */
+    width: 150%;
+    height: 640px;
+}
+h2{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-family: arial;
+    font-size:40px;
+}
+.resume-text{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+table{
+    margin-top: 30px;
+    font-size: 20px;
+    border-collapse: collapse;
+
+}
+th{
+    margin-bottom: 10px;
+}
+.bg-white{
+    background-color: white;
+    color:black;
+    padding: 10px;
+}
+.bg-white td{
+ padding: 5px 5px;
+ margin: 5px;
+ align-items: center;
+
+}
+.color-white{
+    color: white;
+    padding: 10px;
+}
+.color-white td{
+    padding: 5px 5px;
+    margin: 5px;  
+    align-items: center;
+}
+
+/* resume container styling ends here */
+
+/* swing and contact container styling start here */
+
+/* swing  container styling start here */
+.swimg-container{
+    background-color:#616161!important;
+    width: 50%;
+    height: 640px;
+}
+.swing-text{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.text5{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 140px;
+}
+.text5 p{
+    padding: 10px;
+}
+/* swing container styling ends here */
+.swing-contact-container{
+    display: flex;
+}
+.contact-container{
+    background-color: #009688!important;
+    /* width: 567px; */
+    width: 50%;
+    height: 640px;
+}
+.contact-head{
+    color: #fff;
+    font-family: "Segoe UI",Arial,sans-serif;
+   margin-top: 65px;
+   margin-left: 50px;
+   font-size: 20px;
+}
+.w3-opacity{
+    color: #fff;
+    opacity: 0.70px;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+/* contact form styling start here */
+.form-container{
+   background-color: #fff;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   width: 460px;
+   height: 380px;
+   margin-top: 20px;
+   margin-left: 55px ;
+}
+.w3-inputbox{
+    padding-top: 40px;
+    margin-left: 40px;
+}
+.w3-input{
+     padding:  7px 5px 6px 6px;   /* top ,right,bottom,left */ 
+    width:380px;
+    align-items: center;
+    margin-top: 15px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+.w3-inputbox label{
+    margin-bottom:20px;
+}
+.btn4 button{
+    margin-left: 365px;
+    margin-top: 20px;
+    background-color: #009688!important;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 37px;
+    text-align: center;
+}
+/* footer container styling start here */
+.footer-container{
+    background-color: black;
+    height: 100px;
+}
+
+.w3-para{
+    padding:40px;
+    color: white;
+}
+.w3-link{
+color: white;
+font-size: 13px;
+cursor: pointer;
+}
+/* foooter container styling ends here */
+/* media query start here */
+/* for screens up to 768px */
+@media (max-width: 480px) {
+    /* Example css rules for mobile devices */
+    .my-profile{
+        flex-direction: column;
+    }
+    .second-container{
+        flex-direction: column;
+    }
+
+    .nav,.grey-div{
+        width: 100%;
+        height: auto;
+    }
+    .logo{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .about{
+        margin-top: 10px;
+    }
+    .about div{
+        margin-top: 16px;
+    }
+  .about-me{
+margin-top: 40px;
+font-size: 15px;
+  }
+  .profile-image img{
+    height: 150px;
+    margin-top: 30px;
+  }
+  .text ,.text2{
+    font-size: 14px;
+  }
+  .text4{
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
